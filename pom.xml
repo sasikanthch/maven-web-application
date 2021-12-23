@@ -95,7 +95,7 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
+	<!--
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
@@ -107,7 +107,18 @@
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://3.26.150.106:9980/mithuntechnologies/repository/wallmart-snapshot/</url>
 	    </snapshotRepository>
+	  -->  
+	<repository>
+	      <id>nexus</id>
+	      <name>Flipkart Releases Nexus Repository</name>
+	      <url>http://192.168.56.36:8081/repository/flipkart-release/</url>
+	    </repository>
 	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Flipkart Snapshot Nexus Repository </name>
+	      <url>http://192.168.56.36:8081/repository/flipkart-snapshot/</url>
+	    </snapshotRepository>
 	</distributionManagement>
 	
 	<build>
